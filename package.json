@@ -1,26 +1,16 @@
 {
-  "name": "mun",
   "name": "akymun",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
   "private": true,
-  "description": "AKYMUN'26 Zonguldak başvuru sitesi",
+  "description": "AKYMUN'26 Zonguldak basvuru sitesi",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
     "start": "serve -s . -l tcp://0.0.0.0:$PORT",
     "dev": "serve -s ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
-    "jpeg-js": "^0.4.4",
-    "jsqr": "^1.4.0"
     "serve": "^14.2.4"
   }
 }
