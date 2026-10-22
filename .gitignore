@@ -1,0 +1,5 @@
+﻿node_modules/
+package-lock.json
+assets/akymun-pdf-text.txt
+assets/pdf-page1.png
+.DS_Store
